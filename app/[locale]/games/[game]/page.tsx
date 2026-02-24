@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { isLocale, t } from "@/lib/i18n";
-import { codLeagues, gameLabel } from "@/lib/games";
-import { posts, type GameSlug, type League } from "@/data/news";
-
+import { isLocale, t } from "../../../../lib/i18n";
+import { codLeagues, gameLabel } from "../../../../lib/games";
+import { posts } from "../../../../data/news";
 function uniq<T>(arr: T[]) {
   return Array.from(new Set(arr));
 }
