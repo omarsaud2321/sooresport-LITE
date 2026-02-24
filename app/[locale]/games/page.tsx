@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { isLocale, t } from "@/lib/i18n";
-import { games, gameLabel } from "@/lib/games";
+import { isLocale, t } from "../../../lib/i18n";
+import { games, gameLabel } from "../../../lib/games";
 
 export default async function GamesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: raw } = await params;
