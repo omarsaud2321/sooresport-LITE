@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { isLocale, t } from "@/lib/i18n";
-
+import { isLocale, t } from "../../lib/i18n";
 export default async function LocaleLayout({
   children,
   params
